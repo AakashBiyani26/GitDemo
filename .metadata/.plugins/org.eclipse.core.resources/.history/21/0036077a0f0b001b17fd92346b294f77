@@ -1,0 +1,47 @@
+package PageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class HomePage {
+	
+WebDriver driver;
+
+public HomePage(WebDriver driver) { // driver in this value gets the value of new Chromedriver from Login test driver.
+	//this value should be passed on to the Global Webdriver 
+	//global drive i.e. driver in Line 8 can be assigned the value of driver in line 10 by this keyword
+	this.driver= driver;
+}
+	
+	public void Gotosignup() {
+		
+		driver.findElement(By.xpath("//a[@class='zh-signup']"));
+	}
+	
+	public void GotoLogin() {
+		
+		driver.findElement(By.xpath("//a[@class='zh-login']"));
+		
+		
+		
+	}
+    
+	public void Gotosupport() {
+		
+		driver.findElement(By.xpath("//a[@class='zh-support']"));
+	}
+	
+	public void Zohoedu() {
+		
+	}
+	
+	public void ValidateFooterLinks() {
+		
+	}
+
+
+
+}
+
+
+

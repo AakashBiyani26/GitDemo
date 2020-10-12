@@ -1,0 +1,36 @@
+
+public class exceptiondemo {
+	
+	int b=7;
+	int c=0;
+	int k=b/c;
+	
+	public void getdata() {
+		System.out.println(k);
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//if i am not sure whether particular lines of code will give error or not. if they throw an error i need to
+		//catch them and throw a message without failing the code.if people suspect code might throw an error then
+		//they try to catch an error.
+		int b=7;
+		int c=0;
+		try
+		{
+			int k=b/c;
+			System.out.println(k);
+		}
+		catch(Exception e)
+		{
+			System.out.println("i catched exception");
+		}
+		
+		
+				
+
+	}
+
+}

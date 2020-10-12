@@ -1,0 +1,13 @@
+package zohosite;
+
+import org.openqa.selenium.WebDriver;
+
+public class PageClass {
+	
+	public WebDriver driver;
+	
+	public PageClass() {
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package PageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import zohosite.PageClass;
+
+public class SignIn extends PageClass {
+
+	public SignIn() throws InterruptedException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	 
+	
+	By loginemail= By.xpath("//input[@id='login_id']");
+	
+	
+	
+	public WebElement Loginwithemail () {
+		
+		return driver.findElement(loginemail);
+	}
+	
+
+}

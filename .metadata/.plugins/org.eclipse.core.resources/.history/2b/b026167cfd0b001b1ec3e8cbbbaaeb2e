@@ -1,0 +1,47 @@
+package PageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import zohosite.PageClass;
+
+public class HomePage extends PageClass {
+	
+
+
+     public HomePage() throws InterruptedException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+
+	
+	public void Gotosignup() {
+		
+		driver.findElement(By.xpath("//a[@class='zh-signup']")).click();
+	}
+	
+   
+	public void Gotosupport() {
+		
+		driver.findElement(By.xpath("//a[@class='zh-support']")).click();
+	}
+	
+	public void Zohoedu() {
+		
+	}
+	
+	public void ValidateFooterLinks() {
+		
+	}
+
+
+
+}
+
+
+

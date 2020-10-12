@@ -1,0 +1,23 @@
+package TestCases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import PageObjects.HomePage;
+
+public class LoginTest {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","C:\\workaakashoct\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		HomePage home = new HomePage();
+		home.GotoLogin();
+		
+		
+
+	}
+
+}

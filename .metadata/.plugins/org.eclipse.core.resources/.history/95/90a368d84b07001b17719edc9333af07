@@ -1,0 +1,17 @@
+Feature: Application login
+
+Scenario: Home page default login
+
+Given User is on landing page
+When User login into application with "jin" and password "124"
+Then Home page is populated
+And cards displayed are "true"
+
+
+Scenario: Home page default login
+
+Given User is on landing page
+When User signup with following details 
+| jenny | abcd | john@abcd.com | Australia | 
+Then Home page is populated
+And cards displayed are "false"

@@ -1,0 +1,42 @@
+package TestCases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import PageObjects.HomePage;
+import PageObjects.SignIn;
+import zohosite.PageClass;
+
+public class LoginTest extends PageClass{
+
+	public LoginTest() throws InterruptedException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+
+
+		
+		HomePage home = new HomePage(); //this driver will asm parameter is now going to hold the value as in
+		//line 13 driver
+		
+		home.Loginzoho().click();
+		
+		SignIn signin = new SignIn();
+		signin.Loginwithemail().sendKeys("ak@gmail.com");
+		
+		
+		
+		
+		
+		
+		
+		
+	
+
+	}
+
+}

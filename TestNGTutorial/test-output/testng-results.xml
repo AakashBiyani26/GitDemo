@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="45" started-at="2020-06-01T20:44:24Z" finished-at="2020-06-01T20:44:24Z">
+    <groups>
+    </groups>
+    <test name="Car Loan" duration-ms="45" started-at="2020-06-01T20:44:24Z" finished-at="2020-06-01T20:44:24Z">
+      <class name="test.day3">
+        <test-method status="PASS" signature="LoginAPI()[pri:0, instance:test.day3@215be6bb]" name="LoginAPI" duration-ms="15" started-at="2020-06-01T20:44:24Z" finished-at="2020-06-01T20:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPI -->
+        <test-method status="PASS" signature="WebLoginCarLoan()[pri:0, instance:test.day3@215be6bb]" name="WebLoginCarLoan" duration-ms="2" started-at="2020-06-01T20:44:24Z" finished-at="2020-06-01T20:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
